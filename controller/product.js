@@ -147,6 +147,7 @@ const get = async (req,res) => {
     
 }
 
+
 const post_cateogry = async ( req,res) => {
     const { name , code } = req.body;
     try {
